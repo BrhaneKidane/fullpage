@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*
+Dark Blue: #0084FF
+Light Blue: #B8DDFF
+
+Dark Green: #54C788
+Light Green: #CAF0DB
+
+Dark Red: #FF8A8A
+Light Red: #FFD2D2
+
+Dark Yellow: #FFC166
+Light Yellow: #FFE7C4
+
+Dark Purple: #9693E6
+Light Purple: #D5D4F5
+
+Dark Grey: #333333
+*/
+
+
+
+/*styling header which includes logo and nav bar*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#0084FF;
+
+}
+/*logo text stylinging*/
+.logo-text{
+    color: white;
+    margin-top: 10px;
+    margin-left:5px;
+}
+
+.demo-section{
+    padding: 60px 0px;
+}
+
+/* Get demo,blue-phone & clean code text stylinging*/
+.demo-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.get-bphone{
+    display: flex;
+    flex-direction: row;
+    background-color: #B8DDFF;
+    border-radius: 12px;
+}
+
+.get-bphone h3{
+    color: #0084FF;
+}
+
+.get-bphone .phoneimage{
+    height: 100%;
+    width: 120px;
+    margin-top: 0.5px;
+}
+
+.btn {
+    display: flex;
+    background-color: #0084FF;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    padding: 5px 40px; 
+    margin-top: 20px;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;   
+    
+}
+
+.get-bphone .app-store-btn{
+    width: 30px;
+    height: 20px;
+    
+}
+
+
+.code-image{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 15px;    /*or transform: translateX(150px);*/
+}
+
+.clean-code{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* Web Design,development & branding styling*/
+
+.card-green{
+    border-radius: 12px;
+    background-color:#CAF0DB;
+}
+
+.card-green p{
+    padding:30px;
+}
+
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+.card{
+    border-radius: 12px;
+    
+}
+.card img{
+    display: block;
+    width: 100px;
+    margin: auto;
+    
+}
+.card h3{
+    text-align: center;
+
+}
+.card p{
+    padding:20px 10px 50px;
+}
+
+.pink{
+    background-color: #FFD2D2;
+}
+.yellow{
+    background-color:#FFE7C4;
+}
+.purple{
+    background-color: #D5D4F5;
+}
+
+
+
+/* Strategic planning,App Develop with arrow stylinging*/
+.strategic{
+    display: flex;
+    justify-content: center;
+    background-color: #9693E6;
+    gap:20px;
+}
+
+.strategic .wave img{
+    width: 150px;
+    height: 170px;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.strategic h3, .strap p{
+    color: white;
+}
+
+.ideaman{
+    background-color: white;
+    border-radius:20px;
+    width: 250px;
+    height: 320px;
+    margin-top:100px;   
+}
+
+.ideaman img{
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin: auto;
+
+}
+
+.ideaman h3{
+    text-align: center;
+}
+
+.arrow img{
+    width: 20px;
+    height: 20px;
+    background-color: #9693E6;
+    border-radius: 50%;
+    margin-left: 125px;
+}
+
+/* Testimonail planning,App Develop with arrow stylinging*/
+
+
+.testimonial{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;       
+}
+
+.testimonial .testim-head{
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial .testim{
+    border-radius: 10px;
+}
+
+.testimonial .pnk{
+    background-color: #FF8A8A;
+}
+
+.testimonial .yell{
+    background-color: #FFC166;
+}
+
+.testimonial .grn{
+    background-color: #54C788;
+}
+
+.testimonial .testimg{
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+.testimonial .parag{
+    display: inline-block;
+    padding: 20px;
+}
+
+.testimonial .testim-names{
+    text-align: center;
+}
+
+
+/*Benefit of working with us section styling*/
+
+.sect-benefit{
+    background-color:#9693E6;
+    margin-top: 40px;
+}
+
+.benefit{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding:15px 0px 15px;
+}
+
+.item{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.sect-benefit h1, .benefit .btn{
+    text-align: center;
+    color: white;
+    background-color: #9693E6;
+}
+
+.sect-benefit h1{
+    padding: 20px;
+}
+
+.item p{
+    margin-left: 20px;
+}
+
+.sect-benefit h2, h3{
+    color: #9693E6;
+    margin-left: 20px;
+    padding:10px;
+}
+
+.benefit .item .btn{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+/*About us section styling*/
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.about h2{
+    margin-top: 30px;
+    color:#9693E6;
+}
+
+.about img:first-child{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.about img:nth-child(2){
+    width: 30px;
+    transform: translate(100px, -60px);
+}
+
+
+
+.about button {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #9693E6;
+    border: none;
+    border-radius: 10px; 
+    color: white;
+    padding: 10px 30px;
+   
+}
+.about button .linkedimg{
+    width: 20px;
+    margin: auto;
+    
+}
+
+/*Footer styling*/
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.foot .getstart{
+    background-color: #9693E6;
+    
+}
+
+.foot .simpletxt{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+
+.foot .getstart h1{
+    color: #FFC166;
+    margin: 20px;
+}
+
+.foot .getstart h2, .getstart p{
+    color: white;
+    margin: 20px;
+}
+
+.getstart button{
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    color: #9693E6;
+    font-weight: bold;
+    padding: 10px 40px;
+    margin: 20px;
+}
+
+.getstart span{
+    text-decoration: underline;
+   
+}
+
+
+
+/*Mobile styling for all secution of the fullpage*/
+
+
+@media (max-width:600px){
+
+    /* Get demo,blue-phone, demo container & app store button stylinging*/
+    .get-bphone{
+        display: flex;
+        flex-direction: column;
+        background-color: #B8DDFF;
+        border-radius: 12px;
+    }
+
+    .get-bphone .phoneimage{
+        height: 404px;
+        width: 200px; 
+    }
+
+    .demo-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .services-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        margin-top: 10px;
+    }
+
+
+    /*strateging planning mobile style*/
+
+    .strategic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+         background-color: #9693E6;       
+    }
+
+    .ideaman{
+        margin-bottom: 40px; 
+    }
+
+    /* Mobile styling for Testimonail planning,App Develop with arrow*/
+
+   
+    .testimonial .testimg{
+        display: block;
+        margin: auto;
+    }
+
+
+    /*Mobile styling of Benefit of working with us*/
+
+    .benefit{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        
+    }
+
+    .sect-benefit h1{
+        text-align: justify;
+        color: white;
+        background-color: #9693E6;
+        padding: 10px;
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about img:nth-child(2){
+        width: 30px;
+        display: block;
+        transform: translate(90px, -90px);
+    }
+    
+
+}
+
+
+
+/*tablet styling for all parts of the fullpage*/
+
+@media (min-width:768px){
+    
+   /*tablet styling of benefit of working with us part*/
+
+    .benefit {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        
+        gap: 10px;
+        padding:15px 0px 15px;
+    }
+
+    
+}
+
+/*Desktop styling for all parts of the fullpage*/
+@media (min-width:1024px){
+    .benefit {
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        
+        gap: 10px;
+        padding:15px 0px 15px;
+    }
+}
